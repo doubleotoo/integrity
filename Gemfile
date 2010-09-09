@@ -21,6 +21,7 @@ gem "sinatra", "1.0.0"
 gem "sinatra-authorization", "1.0.0"
 gem "bcat", "~>0.5"
 gem "rack", "1.1.0"
+gem "init", "~> 1.0.0"
 
 # These are dependencies for the various notifiers. Uncomment as appropriate.
 # = Email
