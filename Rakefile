@@ -23,6 +23,7 @@ end
 desc "Create the database"
 task :db do
   require "init"
+  require "dm-migrations"
   DataMapper.auto_upgrade!
 end
 
