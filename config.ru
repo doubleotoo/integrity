@@ -1,2 +1,4 @@
 require "init"
-run Integrity.app
+require File.dirname(__FILE__) + "/init"
+
+run ::Integrity.app
